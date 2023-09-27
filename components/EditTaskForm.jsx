@@ -56,7 +56,7 @@ const EditTaskForm = () => {
       </div>
 
       <button className="font-bold bg-green-700 text-white px-6 py-3 w-fit rounded">
-        Update
+        Update Task
       </button>
     </form>
   );

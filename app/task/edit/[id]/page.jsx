@@ -1,7 +1,9 @@
-import EditTaskForm from "@/components/EditTaskForm";
 import React from "react";
+import EditTaskForm from "@/components/EditTaskForm";
 
-const EditTask = () => {
+const EditTask = ({ params }) => {
+  const { id } = params;
+  console.log({ id });
   return <EditTaskForm />;
 };
 
