@@ -15,7 +15,7 @@ const TaskList = ({ priority }) => {
         <div className="flex gap-2">
           <DeleteBtn />
 
-          <Link href={"/task/edit/1"}>
+          <Link href={`/task/edit/1`}>
             <HiPencilAlt size={24} />
           </Link>
         </div>
