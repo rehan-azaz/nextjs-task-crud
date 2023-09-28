@@ -18,8 +18,9 @@ export async function PUT(request, { params }) {
     return NextResponse.json({ message: "Task Updated", task }, { status: 200 })
 }
 
-export async function GET({ params }) {
+export async function GET(request, { params }) {
     const { id } = params;
+
 
     await connectMongoDB();
 
